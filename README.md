@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Briefly explain web technologies so designers can have a better understanding of technical constraints and posiblities.
+Briefly explain web technologies so designers can have a better understanding of technical constraints and possibilities.
 
 ## To Do
 
