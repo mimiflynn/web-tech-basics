@@ -1,3 +1,24 @@
+/*
+    Animation of the top border of the page. Used on the body tag.
+*/
+@keyframes borderChange {
+  0% {border-color: #42affa;}
+  25% {border-color: #D91D96;}
+  50% {border-color: #ff0000;}
+  75% {border-color: #ff8000;}
+  100% {border-color: #ffff00;}
+}
+
+body {
+  animation: borderChange 80s infinite alternate;
+  border-top: 6px solid #45CEEF;
+}
+
 .reveal .slides {
   text-align: left;
 }
+
+.reveal .slides table {
+  border-top: solid 1px white;
+}
+
