@@ -1,17 +1,24 @@
 var open = false;
-var showHideElement = document.getElementById('showHide');
 
-function changeClass(className, element) {
+var showHideElement = document.getElementById('show-hide');
+
+function changeClass(element, className) {
   element.className = className;
 }
 
 function toggleModule() {
   console.log('clicked!');
+
   if (open) {
-    changeClass('hide', showHideElement);
+
+    changeClass(showHideElement, 'hide');
     open = false;
+
   } else {
-    changeClass('show', showHideElement);
+
+    changeClass(showHideElement, 'show');
     open = true;
+
   }
 }
+
