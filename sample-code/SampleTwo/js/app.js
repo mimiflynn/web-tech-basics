@@ -2,23 +2,29 @@ var open = false;
 
 var showHideElement = document.getElementById('show-hide');
 
+var toggleButton = document.getElementById(('toggle-button');
+
 function changeClass(element, className) {
   element.className = className;
 }
 
-function toggleModule() {
-  console.log('clicked!');
+function changeText(element, text) {
+  element.textContent = text;
+}
+
+function betterToggleModule() {
 
   if (open) {
 
     changeClass(showHideElement, 'hide');
+    changeText(toggleButton, 'Show More');
     open = false;
 
   } else {
 
     changeClass(showHideElement, 'show');
-    open = true;
+    changeText(toggleButton, 'Show Less');
+    open = false;
 
   }
 }
-
