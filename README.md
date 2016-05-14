@@ -11,14 +11,6 @@ To run the slideshow:
 ```
 npm install
 grunt serve
-```
-
-## To Do
-
-- basic sample code
-- explanation of box model
-- create show / hide component
-- peer review
 
 ## Sample Code
 
@@ -56,15 +48,9 @@ The sample code is organized according to presentaion steps and linked to in the
 - Explain the use of tag names as CSS selectors
   - add `html` selector with `font-family: sans-serif`
   - add `section` selector with `width: 800px` and `margin: 0 auto`
+  - add styles to button - perhaps audience suggested styles
 
-
-
-
-Start with show more module constrained to the paragraph tag and refactor to a div to illustrate content grouping and box model / content type difference / issues.
-
-## Research and References
+## Further Reading
 
 https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
-
-
 
