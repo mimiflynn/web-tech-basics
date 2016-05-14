@@ -35,7 +35,14 @@ The sample code is organized according to presentaion steps and linked to in the
 - Add button
   - Show button with no finger pointer
   - add finger pointer with css
-- Add ID to paragraph
+- Describe reason for show hide functionality... something about 'above the fold people dont read wall of text'
+  - add hide class
+  - change max-height
+  - add overflow hidden
+  - add show class
+  - add max-height
+- Create logic for interaction with JS
+  - Add ID to paragraph
 
 
 

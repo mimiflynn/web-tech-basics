@@ -13,13 +13,18 @@ function changeText(element, text) {
 }
 
 function betterToggleModule() {
+
   if (open) {
+
     changeClass(showHideElement, 'hide');
     changeText(toggleButton, 'Show More');
     open = false;
+
   } else {
+
     changeClass(showHideElement, 'show');
     changeText(toggleButton, 'Show Less');
     open = false;
+
   }
 }

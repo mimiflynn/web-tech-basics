@@ -1,0 +1,12 @@
+.hide {
+  overflow: hidden;
+  max-height: 50px;
+}
+
+.show {
+  max-height: 900px;
+}
+
+.button {
+  cursor: pointer;
+}
