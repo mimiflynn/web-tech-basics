@@ -26,7 +26,7 @@ The sample code is organized according to presentaion steps and linked to in the
 
 - Show plain header and paragraph
 - Add button
-  - Show button with no finger pointer
+  - show button with no finger pointer
   - add `cursor: pointer` with css
 - Describe reason for show hide functionality... something about 'above the fold people dont read wall of text'
   - add hide class
@@ -35,11 +35,25 @@ The sample code is organized according to presentaion steps and linked to in the
   - add show class
   - add `max-height`
 - Create logic for interaction with JS
-  - Add ID to paragraph
+  - add `id="show-hide"` to paragraph
+  - add `class="hide"` to set initial state
+  - explain state a little
+  - indicate the state in the JS file and explain how its attached to the `className`
+  - talk through the code
+  - show in browser that the show hide button is working
+  - indicate the `onclick` attribute of the button and how its pointing to the `toggleModule` function
+  - open up inspector and compare HTML indicating the `className` of the paragraph
+  - click on the button and show how the `className` changed
+  - make sure everyone saw it
 
 
 ### Sample 2
 
+- Explain how the 'Show More' button keeps saying show more even when it starts to show less
+  - store button element in a variable
+  - write function for changing the `textContent` of an element
+  - add new function to the appropriate spaces inside the `toggleModule` function
+  - show it working in the browser
 - Explain need for more paragraphs and images to be hidden instead of just one paragraph
     - add new `div` wrapper around existing paragraph
     - move `id` and `class` to the new wrapper `div`
