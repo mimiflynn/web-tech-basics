@@ -34,15 +34,28 @@ The sample code is organized according to presentaion steps and linked to in the
 - Show plain header and paragraph
 - Add button
   - Show button with no finger pointer
-  - add finger pointer with css
+  - add `cursor: pointer` with css
 - Describe reason for show hide functionality... something about 'above the fold people dont read wall of text'
   - add hide class
-  - change max-height
-  - add overflow hidden
+  - add `max-height`
+  - add `overflow: hidden`
   - add show class
-  - add max-height
+  - add `max-height`
 - Create logic for interaction with JS
   - Add ID to paragraph
+
+
+### Sample 2
+
+- Explain need for more paragraphs and images to be hidden instead of just one paragraph
+    - add new `div` wrapper around existing paragraph
+    - move `id` and `class` to the new wrapper `div`
+
+### Sample 3
+
+- Explain the use of tag names as CSS selectors
+  - add `html` selector with `font-family: sans-serif`
+  - add `section` selector with `width: 800px` and `margin: 0 auto`
 
 
 
