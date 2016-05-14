@@ -11,6 +11,7 @@ To run the slideshow:
 ```
 npm install
 grunt serve
+```
 
 ## Sample Code
 
