@@ -15,7 +15,7 @@ grunt serve
 
 ## Sample Code
 
-The sample code is organized according to presentaion steps and linked to in the index.html.
+The sample code is organized according to presentation steps and linked to in the index.html.
 
 - dashed line boxes to indication boundaries
 - illustrate padding and margin and border and how it impacts spacing and box size
@@ -25,8 +25,10 @@ The sample code is organized according to presentaion steps and linked to in the
 ### Sample 1
 
 - Show plain header and paragraph
-- Add button
+- Talk through the HTML and what it means in the browser
+- Add button code
   - show button with no finger pointer
+  - connect css file to header
   - add `cursor: pointer` with css
 - Describe reason for show hide functionality... something about 'above the fold people dont read wall of text'
   - add hide class
@@ -35,6 +37,7 @@ The sample code is organized according to presentaion steps and linked to in the
   - add show class
   - add `max-height`
 - Create logic for interaction with JS
+  - add script tag to end of file
   - add `id="show-hide"` to paragraph
   - add `class="hide"` to set initial state
   - explain state a little
